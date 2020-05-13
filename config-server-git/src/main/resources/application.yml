@@ -6,5 +6,11 @@ spring:
       server:
         git:
           uri: https://github.com/MichaelMChan/robin
+#server:
+#  port: 1201
 server:
-  port: 1201
+  port: 7001
+
+#encrypt.key: didispace
+
+eureka.client.serviceUrl.defaultZone: http://localhost:1001/eureka/
